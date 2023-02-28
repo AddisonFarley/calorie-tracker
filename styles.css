@@ -1,0 +1,129 @@
+/* 
+    Author: Addison Farley
+    Date: 10/11/22
+    File Name: styles.css
+    File Description: SDEV 117 Calories Tracker CSS File
+*/
+
+body {
+    width: 960px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+    "main" "console";
+    background-color: #40476d;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+main {
+    background-color: #b2c3dc;
+    grid-area: main;
+}
+
+#console {
+    background-color: #f5fbef;
+    grid-area: console;
+    width: 97%;
+    height: 95%;
+    margin-top: 10px;
+}
+
+aside {
+    background-color: #b2c3dc;
+}
+
+#weightConversion {
+    border: 1px solid #40476d;
+    margin: 10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#workoutMETs {
+    border: 1px solid #40476d;
+    margin: 10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#caloriesBPM {
+    border: 1px solid #40476d;
+    margin: 10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#lbs-to-kgs {
+    border: 1px solid #818caa;
+    background-color: #b6b9d2;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+#lbs-to-kgs:hover {
+    border: 1px solid black;
+}
+
+#workout-to-met {
+    border: 1px solid #818caa;
+    background-color: #b6b9d2;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+#workout-to-met:hover {
+    border: 1px solid black;
+}
+
+#calc-calories {
+    border: 1px solid #818caa;
+    background-color: #b6b9d2;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+#calc-calories:hover {
+    border: 1px solid black;
+}
+
+input {
+    float: right;
+    margin-right: 10px;
+    width: 50%;
+}
+
+#workouts {
+    float: right;
+    margin-right: 10px;
+    width: 53%;
+    height: 20px;
+}
+
+#weightConversion>label {
+    margin-bottom: 10px;
+}
+
+#workoutMETs>label {
+    margin-bottom: 10px;
+}
+
+#caloriesBPM>label {
+    margin-bottom: 100px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: inline-block;
+}
